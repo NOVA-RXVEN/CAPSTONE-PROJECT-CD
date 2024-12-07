@@ -1,0 +1,59 @@
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("https://media.gq-magazine.co.uk/photos/610bcbc20b993f08aff7d1aa/16:9/w_2560%2Cc_limit/05082021_KSI_HP.jpg");
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAAH_87MnJU6zNeYQV-tHe19ZiXcWU_bVkNg&s");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://media.newyorker.com/photos/617c7d3010c9b2a68df01bbf/master/pass/211108_r39295.jpg");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  opacity: 0.7;
+}
+
+@media (max-width: 568px) {
+  .pimg1 .pimg2 .pimg3 {
+    background-color: scroll;
+  }
+}
