@@ -30,6 +30,75 @@
       body {
         background-color: rgb(190, 166, 135);
       }
+
+      .pimg1,
+      .pimg2,
+      .pimg3,
+      .pimg4 {
+        position: relative;
+        opacity: 0.9;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      .pimg1 {
+        background-image: url("https://www.codingem.com/wp-content/uploads/2021/10/juanjo-jaramillo-mZnx9429i94-unsplash-1024x683.jpg");
+        min-height: 400px;
+      }
+
+      .pimg2 {
+        background-image: url("https://media.istockphoto.com/id/1336646860/photo/teenage-boy-kicking-soccer-ball-in-field.jpg?s=612x612&w=0&k=20&c=yGZ7Wpd84_MhP9Ll6ol0DysGo_GUly-RQrrUmGiXSUI=");
+        min-height: 400px;
+      }
+
+      .pimg3 {
+        background-image: url("https://media.istockphoto.com/id/1094297362/photo/asian-badminton-player-is-hitting-in-court.jpg?b=1&s=612x612&w=0&k=20&c=xUHUUycbclRckoYaCN9Egw0quaM0OAJ5gDP44pVSSmQ=");
+        min-height: 400px;
+      }
+
+      .pimg4 {
+        background-image: url("https://media.istockphoto.com/id/1220610073/photo/physics-teacher-writing-math-equations-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=hk112THzFuC9liB1xvDWi9726kbRgLvjQF3U2magnJ8=");
+        min-height: 400px;
+      }
+
+      .section {
+        text-align: center;
+        padding: 50px 80px;
+      }
+
+      .section-dark {
+        background-color: #000000;
+        color: #ddd;
+      }
+
+      .ptext {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: #000;
+        font-size: 27px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+      }
+
+      .ptext .border {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        opacity: 0.5;
+      }
+
+      @media (max-width: 568px) {
+        .pimg1 .pimg2 .pimg3 .pimg4 {
+          background-color: scroll;
+        }
+      }
+      h2 {
+        padding: 20px;
+      }
     </style>
   </head>
   <body>
@@ -41,6 +110,40 @@
       <a href="projects.html">Projects</a>
       <a href="photographs.html">Photographs</a>
       <a class="active" href="hobby.html">Hobby</a>
+    </div>
+
+    <h2
+      style="
+        font-size: 40px;
+        background-color: rgb(63, 43, 18);
+        color: rgb(151, 120, 81);
+      "
+    >
+      <center>Here Are Some Of My Favourite Hobbies</center>
+    </h2>
+
+    <div class="pimg1">
+      <div class="ptext">
+        <span class="border trans"> Programming </span>
+      </div>
+    </div>
+
+    <div class="pimg2">
+      <div class="ptext">
+        <span class="border trans"> Playing Football </span>
+      </div>
+    </div>
+
+    <div class="pimg3">
+      <div class="ptext">
+        <span class="border trans"> Playing Badminton </span>
+      </div>
+    </div>
+
+    <div class="pimg4">
+      <div class="ptext">
+        <span class="border trans"> Solving Mathematical Problems </span>
+      </div>
     </div>
   </body>
 </html>
