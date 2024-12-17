@@ -7,6 +7,8 @@
       body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
+        background-color: #10192a;
+        font-size: 22px;
       }
       .topnav {
         overflow: hidden;
@@ -29,33 +31,53 @@
         color: #0a1425;
         background-color: #24dddd;
       }
-      body {
-        background-color: #10192a;
-      }
 
       .home {
-        position: fixed;
+        position: relative;
+        width: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding-left: 600px;
-        padding-top: 160px;
+        padding-top: 135px;
       }
       h2 {
-        color: #bcbcbc;
+        color: #dcdbdb;
+        font-size: 38px;
+        height: 25px;
       }
       h1 {
-        color: #f2f2f2;
+        color: rgb(27, 200, 209);
+        font-size: 45px;
+        height: 38px;
       }
       h3 {
-        color: #c2c2c2;
+        color: #dcdbdb;
+        font-size: 29px;
+        height: 28px;
+      }
+      h4 {
+        color: #dcdbdb;
+        font-size: 25px;
       }
       mark {
-        background-color: rgb(222, 222, 222);
+        background: transparent;
+        color: rgb(27, 200, 209);
       }
-      social-medias {
-        left: 50%;
+      .social-medias a {
+        color: rgb(27, 200, 209);
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+        margin: 6px;
+        transition: color 0.3s;
+        text-decoration: none;
+      }
+
+      .social-medias a:hover {
+        color: #ffffff;
+        text-shadow: 0 0 8px;
       }
     </style>
   </head>
@@ -74,8 +96,11 @@
       <div class="introduction">
         <h2>Hello There! Myself</h2>
         <h1>Liban Tahsin</h1>
-        <h2>I'm a high school <mark>Programmer</mark>.</h2>
-        <h1>I love how things work in a computer!</h1>
+        <h3>
+          I'm a high school <mark>Programmer</mark> from
+          <mark>Bangladesh</mark>
+        </h3>
+        <h4>I love how things work in a computer!</h4>
       </div>
 
       <div class="social-medias">
