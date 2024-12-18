@@ -12,14 +12,17 @@
         overflow: hidden;
         background-color: #061023;
         font-style: oblique;
+        padding-left: 290px;
       }
       .topnav a {
         float: left;
         color: #24dddd;
         text-align: center;
-        padding: 25px 30px;
+        padding: 20px 40px;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 27px;
+        transition: color 1s;
+        text-shadow: 0 0 1px;
       }
       .topnav a:hover {
         background-color: #13e4e4;
@@ -43,36 +46,37 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        height: 600px;
       }
 
       .pimg1 {
-        background-image: url("https://www.codingem.com/wp-content/uploads/2021/10/juanjo-jaramillo-mZnx9429i94-unsplash-1024x683.jpg");
+        background-image: url("https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         min-height: 400px;
       }
 
       .pimg2 {
-        background-image: url("https://media.istockphoto.com/id/1336646860/photo/teenage-boy-kicking-soccer-ball-in-field.jpg?s=612x612&w=0&k=20&c=yGZ7Wpd84_MhP9Ll6ol0DysGo_GUly-RQrrUmGiXSUI=");
+        background-image: url("https://images.unsplash.com/photo-1434648957308-5e6a859697e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         min-height: 400px;
       }
 
       .pimg3 {
-        background-image: url("https://media.istockphoto.com/id/1094297362/photo/asian-badminton-player-is-hitting-in-court.jpg?b=1&s=612x612&w=0&k=20&c=xUHUUycbclRckoYaCN9Egw0quaM0OAJ5gDP44pVSSmQ=");
+        background-image: url("https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         min-height: 400px;
       }
 
       .pimg4 {
-        background-image: url("https://media.istockphoto.com/id/1220610073/photo/physics-teacher-writing-math-equations-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=hk112THzFuC9liB1xvDWi9726kbRgLvjQF3U2magnJ8=");
+        background-image: url("https://images.unsplash.com/photo-1561089489-f13d5e730d72?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
         min-height: 400px;
       }
 
       .section {
         text-align: center;
-        padding: 50px 80px;
+        padding: 25px;
       }
 
       .section-dark {
+        color: #1a9edc;
         background-color: #000000;
-        color: #ddd;
       }
 
       .ptext {
@@ -100,6 +104,16 @@
       }
       h2 {
         padding: 20px;
+        font-size: 25px;
+      }
+      center {
+        font-size: 60px;
+      }
+      h1 {
+        font-size: 40px;
+      }
+      mark {
+        background-color: #0ac0ee;
       }
     </style>
   </head>
@@ -107,14 +121,13 @@
     <div class="topnav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="contactme.html">Contact me</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="contactme.html">Contact</a>
       <a href="projects.html">Projects</a>
       <a href="photographs.html">Photographs</a>
       <a class="active" href="hobby.html">Hobby</a>
     </div>
 
-    <h2 style="font-size: 40px; background-color: #040e20; color: #4ea0cb">
+    <h2 style="font-size: 40px; background-color: #040e20; color: #0ac0ee">
       <center>Hobbies</center>
     </h2>
 
@@ -123,23 +136,70 @@
         <span class="border trans"> Programming </span>
       </div>
     </div>
+    <section class="section section-dark">
+      <h1>Programming</h1>
+      <h2>
+        Programming is the process of creating instructions that a computer can
+        follow to <mark>perform specific tasks</mark>. These instructions,
+        <mark>known as code</mark> , are written in programming languages that
+        translate human logic into a format that computers can understand and
+        execute.
+      </h2>
+    </section>
 
     <div class="pimg2">
       <div class="ptext">
         <span class="border trans"> Playing Football </span>
       </div>
     </div>
+    <section class="section section-dark">
+      <h1>Playing Football</h1>
+      <h2>
+        Playing football is an exciting and energetic game enjoyed by people of
+        all ages. It involves <mark>two teams</mark> working together to score
+        goals by kicking a ball into the opposing team's goal bar or net. The
+        game encourages teamwork, strategy, and physical fitness while offering
+        players a chance to improve their skills and enjoy friendly competition.
+      </h2>
+    </section>
 
     <div class="pimg3">
       <div class="ptext">
         <span class="border trans"> Playing Badminton </span>
       </div>
     </div>
+    <section class="section section-dark">
+      <h1>Playing Badminton</h1>
+      <h2>
+        Playing badminton is a fun and active sport. It involves hitting a
+        shuttlecock over a net using a racket, with the goal of landing it in
+        the opponent's court. Badminton can be played
+        <mark>indoors or outdoors</mark>, either as
+        <mark>singles or doubles</mark> . The game helps improve hand-eye
+        coordination, agility, and fitness while providing a great way to relax
+        and have fun. Whether played competitively or just for enjoyment,
+        badminton is a fantastic way to stay active and spend time with friends
+        or family.
+      </h2>
+    </section>
 
     <div class="pimg4">
       <div class="ptext">
         <span class="border trans"> Solving Mathematical Problems </span>
       </div>
     </div>
+    <section class="section section-dark">
+      <h1>Solving Mathematical Problems</h1>
+      <h2>
+        Solving mathematical problems is a valuable skill that helps develop
+        logical thinking. It involves understanding the question, applying
+        formulas or methods, and working step by step to find the solution.
+        Mathematics can be challenging, but it also
+        <mark>sharpens the mind and builds confidence</mark> . Solving math
+        problems teaches <mark>patience and persistence</mark> while improving
+        critical thinking skills. It's a great way to exercise the brain and
+        explore the beauty of numbers and patterns.
+      </h2>
+    </section>
   </body>
 </html>

@@ -6,19 +6,23 @@
       body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        font-style: oblique;
+        font-style: normal;
       }
       .topnav {
         overflow: hidden;
         background-color: #061023;
+        padding-left: 290px;
+        font-style: oblique;
       }
       .topnav a {
         float: left;
         color: #24dddd;
         text-align: center;
-        padding: 25px 30px;
+        padding: 20px 40px;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 27px;
+        transition: color 1s;
+        text-shadow: 0 0 1px;
       }
       .topnav a:hover {
         background-color: #13e4e4;
@@ -31,17 +35,69 @@
       body {
         background-color: #10192a;
       }
+      h1 {
+        text-align: center;
+        text-transform: capitalize;
+        background-color: #061023;
+        padding: 17px;
+        color: #1bc3dd;
+        font-size: 45px;
+      }
+      .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+      }
+
+      .myslides {
+        display: none;
+        max-height: 100%;
+        max-width: 100%;
+      }
+       .footer {
+        font-size: 15px;
+        font-family: Verdana, Tahoma, sans-serif;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        background-color: #13e4e4;
+        color: #061023;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <div class="topnav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
-      <a href="contactme.html">Contact me</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="contactme.html">Contact</a>
       <a href="projects.html">Projects</a>
       <a class="active" href="photographs.html">Photographs</a>
       <a href="hobby.html">Hobby</a>
     </div>
+
+    <h1>Some amazing pictures that I took</h1>
+
+<div class="carousel-container">
+<img class="myslides" src="" height="500" width="500" alt="Slide 1">
+<img class="myslides" src="" height="500" width="500" alt="Slide 2">
+<img class="myslides" src="" height="500" width="500" alt="Slide 3">
+<img class="myslides" src="" height="500" width="500" alt="Slide 4">
+<img class="myslides" src="" height="500" width="500" alt="Slide 5">
+<img class="myslides" src="" height="500" width="500" alt="Slide 6">
+<img class="myslides" src="" height="500" width="500" alt="Slide 7">
+<img class="myslides" src="" height="500" width="500" alt="Slide 8">
+<img class="myslides" src="" height="500" width="500" alt="Slide 9">
+<img class="myslides" src="" height="500" width="500" alt="Slide 10">
+
+    <div class="footer">
+      <b><p>Contact: +8801780178406</p></b>
+      <b><p>Email : tahsin.liban0927@gmail.com</p></b>
+      <b><p>Instagram: nova.rxven</p></b>
+    </div>
+
+     <script src="script2.js"></script>
   </body>
 </html>

@@ -6,19 +6,23 @@
       body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        font-style: oblique;
+        font-style: normal;
       }
       .topnav {
         overflow: hidden;
         background-color: #061023;
+        padding-left: 290px;
+        font-style: oblique;
       }
       .topnav a {
         float: left;
         color: #24dddd;
         text-align: center;
-        padding: 25px 30px;
+        padding: 20px 40px;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 27px;
+        transition: color 1s;
+        text-shadow: 0 0 1px;
       }
       .topnav a:hover {
         background-color: #13e4e4;
@@ -31,35 +35,80 @@
       body {
         background-color: #10192a;
       }
+      .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+      }
+      .about {
+        width: 900px;
+      }
+      .bio-data {
+        height: 515px;
+        width: 500px;
+        padding-left: 50px;
+      }
+
+      h1 {
+        color: #13e4e4;
+        font-size: 38px;
+      }
+
+      h3 {
+        color: #24dddd;
+        margin-bottom: 40px;
+        font-size: 25px;
+      }
+      h4 {
+        font-size: 19px;
+        color: rgb(205, 205, 205);
+      }
+      mark {
+        background: transparent;
+        color: #24dddd;
+      }
     </style>
   </head>
   <body>
     <div class="topnav">
       <a href="index.html">Home</a>
       <a class="active" href="about.html">About</a>
-      <a href="contactme.html">Contact me</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="contactme.html">Contact</a>
       <a href="projects.html">Projects</a>
       <a href="photographs.html">Photographs</a>
       <a href="hobby.html">Hobby</a>
     </div>
 
-    <h2>
-      Hello There! My name is Liban Tahsin. I am 13 years old and currently
-      studying in class 7 at Mohammadpur Preparatory School and College. I enjoy
-      learning new things and always try my best in my studies.Besides school, I
-      like spending time with my friends and exploring new hobbies. I am curious
-      about the world and love challenging myself with new ideas and
-      activities.I am passionate about my studies and enjoy exploring different
-      subjects. Science and mathematics are some of my favorite areas, as I love
-      discovering how things work. I am also very curious and enjoy reading
-      books and learning new facts in my free time. At school, I try to
-      participate in various activities to develop myself beyond academics.
-      Whether its group projects or extracurricular events, I enjoy working with
-      my classmates and learning from them. I believe that teamwork and
-      communication are important for success in life.
-    </h2>
+    <section class="about">
+      <div class="bio-data">
+        <h1>LIBAN TAHSIN</h1>
+        <h3>A Highschool Programmer</h3>
+        <h4>
+          Hello There! My name is Liban Tahsin and I live in Dhaka, Bangladesh.
+          I am 13 years old and currently studying in class 7 at
+          <mark>Mohammadpur Preparatory School and College</mark>. I enjoy
+          learning new things and always try my best in my studies.Besides
+          school, I like spending time with my friends and homies.<br /><br />
+          I am curious about the world and love challenging myself with new
+          activities.I am passionate about my studies and enjoy exploring
+          different subjects.
+          <mark>Science and Mathematics are some of my favorite areas</mark>, as
+          I love discovering how things work. I am also very curious and enjoy
+          reading books and learning new facts in my free time.<br /><br />
+          At school, I try to participate in various activities to
+          <mark>develop myself beyond academics</mark>. Whether its group
+          projects or extracurricular events, I enjoy working with my classmates
+          and learning from them. I believe that teamwork and communication are
+          important for success in life.
+        </h4>
+      </div>
+    </section>
 
-    <img src="" height="350" width="340" />
+    <image
+      src="https://images.unsplash.com/photo-1508341591423-4347099e1f19?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      height="500"
+      width="310"
+    ></image>
   </body>
 </html>
